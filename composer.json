@@ -17,21 +17,11 @@
         }
     ],
     "homepage": "https://codeception.com/",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/zitivapo/lib-innerbrowser"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.dvipdev.com/"
-        }
-    ],
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "codeception/codeception": "^5.0",
-        "codeception/lib-innerbrowser": "dev-master",
+        "codeception/codeception": "*@dev",
+        "codeception/lib-innerbrowser": "*@dev",
         "guzzlehttp/guzzle": "^7.4",
         "symfony/browser-kit": "^5.4 || ^6.0"
     },
