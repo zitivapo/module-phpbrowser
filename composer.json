@@ -20,7 +20,7 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "codeception/codeception": "^5.0.0-RC2",
+        "codeception/codeception": "~5",
         "codeception/lib-innerbrowser": "^3.1",
         "guzzlehttp/guzzle": "^7.4",
         "symfony/browser-kit": "^5.4 || ^6.0"
